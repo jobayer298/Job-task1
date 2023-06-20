@@ -25,7 +25,7 @@ const Schedule = () => {
             ></SingleSchedule>
           </div>
           <div className="">
-              <img src={img} alt="" />
+            <img src={img} alt="" />
           </div>
         </div>
       </div>

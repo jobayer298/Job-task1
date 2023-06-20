@@ -12,9 +12,9 @@ const Medical = () => {
 
         <div className="grid md:grid-cols-4 gap-4 my-10 place-items-center">
           {data.map((d, index) => (
-            <div key={index}>
+            <div data-aos="zoom-in" key={index}>
               <div>
-                <img className='' src={d.image} alt="" />
+                <img className="" src={d.image} alt="" />
                 <p className="text-center font-bold bg-indigo-600 text-white p-2">
                   {d.name}
                 </p>
