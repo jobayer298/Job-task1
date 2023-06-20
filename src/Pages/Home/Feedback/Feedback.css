@@ -1,0 +1,6 @@
+.feedback-bg{
+    background:linear-gradient(180deg, rgba(94, 9, 230, 0.747) 0%, rgba(94, 9, 230, 0.849) 100%), url("../../../assets/images/Feedback/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

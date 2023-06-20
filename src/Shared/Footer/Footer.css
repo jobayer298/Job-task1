@@ -1,0 +1,7 @@
+button.scroll-to-top {
+    background: orange;
+    color: white;
+    display: grid;
+    place-items: center;
+    border-radius: 100%;
+}

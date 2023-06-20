@@ -12,11 +12,11 @@ const Navbar = () => {
         <li tabIndex={0}>
           <details>
             <summary>Home</summary>
-            <ul className="p-2">
+            <ul className="p-2 text-black">
               <li tabIndex={0}>
                 <details>
                   <summary>menu 1</summary>
-                  <ul className=" ml-7">
+                  <ul className=" ml-7 text-black">
                     <li>
                       <a>Submenu 1</a>
                     </li>
@@ -41,11 +41,11 @@ const Navbar = () => {
         <li tabIndex={0}>
           <details>
             <summary>Feature</summary>
-            <ul className="p-2">
+            <ul className="p-2 text-black">
               <li tabIndex={0}>
                 <details>
                   <summary>menu 1</summary>
-                  <ul className=" ml-7">
+                  <ul className=" ml-7 text-black">
                     <li>
                       <a>Submenu 1</a>
                     </li>
@@ -99,11 +99,11 @@ const Navbar = () => {
         <li tabIndex={0}>
           <details>
             <summary>Event</summary>
-            <ul className="p-2">
+            <ul className="p-2 text-black">
               <li tabIndex={0}>
                 <details>
                   <summary>menu 1</summary>
-                  <ul className=" ml-7">
+                  <ul className=" ml-7 text-black">
                     <li>
                       <a>Submenu 1</a>
                     </li>
@@ -164,7 +164,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 items-center justify-center">
+          <ul className="menu menu-horizontal px-1 items-center z-50 justify-center">
             {menu}
           </ul>
         </div>
