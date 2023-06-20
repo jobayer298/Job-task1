@@ -1,0 +1,15 @@
+/* .first-bg{
+    background-image: url('../../../assets//images/Banner/Rectangle28.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+} */
+
+.bg-color{
+    border-radius: 208.5px;
+    height: 250px;
+    width: 400px;
+    z-index: -1;
+}
